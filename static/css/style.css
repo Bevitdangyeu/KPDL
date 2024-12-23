@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(/static/bg2.jpg);
+    background-size: 100%;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    background-image:url(/static/blue-background-water-ripple-texture.jpg);
+    height: 500px;
+    object-fit: cover;
+   
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #5499c7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #a9cce3;
+}
+
+#result {
+    margin-top: 40px;
+}
+
+#predictionOutcome {
+    font-size: 16px;
+    color: #333;
+}
+#ph,#turbidity,#temperature{
+    border-radius: 20px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    height: 45px;
+    outline: none;
+}
